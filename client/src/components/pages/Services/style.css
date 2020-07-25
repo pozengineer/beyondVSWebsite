@@ -1,0 +1,94 @@
+.servicesSection {
+    margin-top: 0 !important;
+}
+
+.serviceColumn {
+    padding: 10px !important;
+}
+
+.serviceCardContent {
+    height: 350px;
+    text-align: center !important;
+}
+
+.serviceCardDescription {
+    height: 200px;
+    color: #000000;
+}
+/* These rules take effect when the browser's width */
+/* is either 225px or more. */
+@media screen and (min-width: 225px) {
+    /* The body background color will be #ff0000 */
+    body {
+        background-color: #ff0000;
+    }
+    .serviceCardDescription {
+        height: 100px;
+    }
+    .serviceCardContent {
+        height: 250px;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 320px or more. */
+@media screen and (min-width: 320px) {
+    /* The body's bg color will be #4caf50 */
+    body {
+      background-color: #4caf50;
+    }
+    .serviceCardDescription {
+        font-size: 14px;
+        line-height: 125%;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 576px or more. */
+@media screen and (min-width: 576px) { */
+    /* The body's bg color will be #fca203 */
+    body {
+      background-color: #fca203;
+    }
+    .serviceCardDescription {
+        height: 200px;
+    }
+    .serviceCardContent {
+        height: 350px;
+        text-align: center !important;
+    }
+    .serviceCardTitle {
+        font-size: 16px !important;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 768px or more. */
+@media screen and (min-width: 768px) {
+    /* The body's bg color will be #e803fc */
+    body {
+      background-color: #e803fc;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 992px or more. */
+@media screen and (min-width: 992px) {
+    /* The body's bg color will be #03fcf2 */
+    body {
+      background-color: #03fcf2;
+    }
+    .serviceCardTitle {
+        font-size: 18px !important;
+    }
+}
+/* Extra small (xs) devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* Medium (md) devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* Large (lg) devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */

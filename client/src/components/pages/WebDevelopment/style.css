@@ -1,0 +1,145 @@
+.adminSupportSection {
+    padding-bottom: 100px;
+}
+
+.adminSupportDiv01 {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 20px !important;
+    /* border: solid; */
+    /* border-style: solid; */
+    /* border-width: 20px; */
+    /* border-color: #ffffff; */
+    max-width: 700px;
+}
+
+.adminSupportHeader01 {
+    color: #000000;
+}
+
+.adminSupportText01 {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left !important;
+}
+
+.webDevelopmentDiv02 {
+    background-color: #000000;
+    padding: 20px;
+}
+
+.adminSupportList {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    /* font-size: 28px; */
+}
+
+p {
+    font-family: Verdana, "Geneva", sans-serif;
+    line-height: 100%;
+    color: #ffffff;
+    margin: 0 !important;
+    text-align: center !important;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color:#dddddd;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* These rules take effect when the browser's width */
+/* is either 225px or more. */
+@media screen and (min-width: 225px) {
+    /* The body background color will be #ff0000 */
+    body {
+        background-color: #ff0000;
+    }
+    h1 {
+        font-size: 20px !important;
+    }
+    p {
+        font-size: 12px;
+        line-height: 125% !important;
+    }
+    .webDevelopmentDiv02 {
+        margin: 20px 0px;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 320px or more. */
+@media screen and (min-width: 320px) {
+    /* The body's bg color will be #4caf50 */
+    body {
+      background-color: #4caf50;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 576px or more. */
+@media screen and (min-width: 576px) { */
+    /* The body's bg color will be #fca203 */
+    body {
+      background-color: #fca203;
+    }
+    p {
+        font-size: 14px;
+        line-height: 150% !important;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 768px or more. */
+@media screen and (min-width: 768px) {
+    /* The body's bg color will be #e803fc */
+    body {
+      background-color: #e803fc;
+    }
+    h1 {
+        font-size: 25px !important;
+    }
+    .adminSupportDiv01 {
+        padding-right: 100px !important;
+    }
+    .webDevelopmentDiv02 {
+        position: relative;
+        left: -50px;
+        margin: 20px 0px;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 992px or more. */
+@media screen and (min-width: 992px) {
+    /* The body's bg color will be #03fcf2 */
+    body {
+      background-color: #03fcf2;
+    }
+    h1 {
+        font-size: 35px !important;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+/* Extra small (xs) devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* Medium (md) devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* Large (lg) devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */

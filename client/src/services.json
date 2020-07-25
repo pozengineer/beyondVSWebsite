@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Administration Support",
+        "description": "We provide complete admin support services that cover everything from data entry and inbox management, to recruitment support and travel management.",
+        "href": "/administrationSupport",
+        "linkName": "administrationSupport"
+    },
+    {
+        "id": 2,
+        "name": "Project Management",
+        "description": "Our project management services will help you expertly manage any project using our budget tracking, team coordination and timeline management services.",
+        "href": "/projectManagement",
+        "linkName": "projectManagement"
+    },
+    {
+        "id": 3,
+        "name": "Accounting & Finance",
+        "description": "We offer accounting and finance services to help you manage and grow your business. From invoicing and payroll to financial statements and tax preparation, we do it all.",
+        "href": "/accountFinance",
+        "linkName": "accountFinance"
+    },
+    {
+        "id": 4,
+        "name": "Web Development",
+        "description": "We offer professional web development services including website design and development, mobile app design, illustration and more.",
+        "href": "/webDevelopment",
+        "linkName": "webDevelopment"
+    },
+    {
+        "id": 5,
+        "name": "Expert Services",
+        "description": "For the last 15 years, our skilled team has been honing their administration, project management, finance, and IT skills across a variety of industries.",
+        "href": "/expertServices",
+        "linkName": "expertServices"
+    },
+    {
+        "id": 6,
+        "name": "Virtual Services",
+        "description": "All of our services are completely virtual, designed to improve operational efficiency while giving you flexibility.",
+        "href": "/virtualServices",
+        "linkName": "expertServices"
+    }
+]

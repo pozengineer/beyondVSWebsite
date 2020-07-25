@@ -1,0 +1,15 @@
+.navbar-brand {
+    /* font-family: "Georgia", "Times New Roman", Times, serif; */
+    font-family: Verdana, "Geneva", sans-serif;
+    font-size: 30px;
+    color: #ffffff !important;
+}
+
+.navLogo {
+    text-align: center !important;
+}
+
+.logoImage {
+    width: 350px;
+    height: 75px;
+}
