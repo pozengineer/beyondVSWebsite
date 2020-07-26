@@ -13,7 +13,7 @@
 .App {
     min-height: 100vh;
     margin-bottom: 0px;
-    background-color: #000000;
+    background-color: #2e2e2e;
     width: 100%;
     background-image: url('./components/assets/images/background image resize 50.jpg');
     /* background-size: 1570px 1047px; */
@@ -361,7 +361,7 @@ hr {
 @media screen and (min-width: 320px) {
     /* The body's bg color will be #4caf50 */
     body {
-      background-color: #4caf50;
+      background-color: #000000;
     }
     /* The container width will be 576px */
     .container {
