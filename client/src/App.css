@@ -17,9 +17,9 @@
     background-image: url('./components/assets/images/background image resize 50.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 1570px 1047px;
     background-position: center center;
-    width: 100%;
+    /* width: 100%; */
 }
 
 html, body {
@@ -400,6 +400,16 @@ hr {
     .form-group,
     .form-control {
         font-size: 15px;
+    }
+    .App {
+        background-size: 2000px 100%;
+    }
+}
+/* These rules take effect when the browser's width */
+/* is either 1200px or more. */
+@media screen and (min-width: 1200px) {
+    .App {
+        background-size: 100% 100%;
     }
 }
 /* Extra small (xs) devices (portrait phones, less than 576px) */
