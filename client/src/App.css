@@ -16,11 +16,10 @@
     background-color: #000000;
     background-image: url('./components/assets/images/background image resize 50.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed !important;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     width: 100%;
-    z-index: -1 !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
