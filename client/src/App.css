@@ -20,9 +20,6 @@
     background-size: cover;
     background-position: center center;
     width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 html, body {
