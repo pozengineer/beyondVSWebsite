@@ -16,15 +16,13 @@
     background-color: #000000;
     width: 100%;
     background-image: url('./components/assets/images/background image resize 50.jpg');
-    /* background-size: 1570px 1047px; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 100%;
-    background-size: cover;
-    background-position:center;
-    top: 0; right: 0;
-    z-index: -1000;
+    background-size: 1570px 1047px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* -o-background-size: cover; */
 }
 
 html, body {
@@ -357,11 +355,6 @@ hr {
     .labelText {
         font-size: 20px;
     }
-    .App {
-        background-repeat: repeat !important;
-        background-attachment: fixed !important;
-        background-size: 100% 100% !important;
-    }
 }
 /* These rules take effect when the browser's width */
 /* is either 320px or more. */
@@ -384,11 +377,6 @@ hr {
     }
     .navLogo {
         margin-top: 10px;
-    }
-    .App {
-        background-repeat: no-repeat !important;
-        background-attachment: fixed !important;
-        background-size: 2000px 100% !important;
     }
 }
 /* These rules take effect when the browser's width */
@@ -416,12 +404,15 @@ hr {
     .form-control {
         font-size: 15px;
     }
+    .App {
+        background-size: 2000px 100% !important;
+    }
 }
 /* These rules take effect when the browser's width */
 /* is either 1200px or more. */
 @media screen and (min-width: 1200px) {
     .App {
-        background-size: 100% 100%;
+        background-size: 100% 100% !important;
     }
 }
 /* Extra small (xs) devices (portrait phones, less than 576px) */
