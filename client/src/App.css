@@ -16,12 +16,15 @@
     background-color: #000000;
     width: 100%;
     background-image: url('./components/assets/images/background image resize 50.jpg');
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
     /* background-size: 1570px 1047px; */
-    /* -webkit-background-size: cover; */
-    /* -moz-background-size: cover; */
-    /* -o-background-size: cover; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    background-size: cover;
+    background-position:center;
+    top: 0; right: 0;
+    z-index: -1000;
 }
 
 html, body {
@@ -355,9 +358,9 @@ hr {
         font-size: 20px;
     }
     .App {
-        background-size: 2000px 100% !important;
-        background-repeat: no-repeat !important;
+        background-repeat: repeat !important;
         background-attachment: fixed !important;
+        background-size: 100% 100% !important;
     }
 }
 /* These rules take effect when the browser's width */
@@ -381,6 +384,11 @@ hr {
     }
     .navLogo {
         margin-top: 10px;
+    }
+    .App {
+        background-repeat: no-repeat !important;
+        background-attachment: fixed !important;
+        background-size: 2000px 100% !important;
     }
 }
 /* These rules take effect when the browser's width */
