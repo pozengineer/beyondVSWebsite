@@ -19,9 +19,10 @@
     background-size: 1570px 1047px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-position: center;
+    -webkit-background-size: 1570px 1047px;
+    -moz-background-size: 1570px 1047px;
+    -o-background-size: 1570px 1047px;
 }
 
 html, body {
