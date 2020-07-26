@@ -17,9 +17,11 @@
     background-image: url('./components/assets/images/background image resize 50.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed !important;
-    background-size: 1570px 1047px;
+    background-size: cover;
+    background-position: center center;
     width: 100%;
     z-index: -1 !important;
+    display: block;
 }
 
 html, body {
@@ -352,10 +354,6 @@ hr {
     .labelText {
         font-size: 20px;
     }
-    .App {
-        background-attachment: fixed !important;
-        z-index: -1 !important;
-    }
 }
 /* These rules take effect when the browser's width */
 /* is either 320px or more. */
@@ -404,16 +402,6 @@ hr {
     .form-group,
     .form-control {
         font-size: 15px;
-    }
-    .App {
-        background-size: 2000px 100%;
-    }
-}
-/* These rules take effect when the browser's width */
-/* is either 1200px or more. */
-@media screen and (min-width: 1200px) {
-    .App {
-        background-size: 100% 100%;
     }
 }
 /* Extra small (xs) devices (portrait phones, less than 576px) */
