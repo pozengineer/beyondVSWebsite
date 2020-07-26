@@ -356,7 +356,6 @@ hr {
     }
     .App {
         background-size: 2000px 100% !important;
-        background-position: center center !important;
         background-repeat: no-repeat !important;
         background-attachment: fixed !important;
     }
