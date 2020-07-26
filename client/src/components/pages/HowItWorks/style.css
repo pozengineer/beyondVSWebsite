@@ -30,7 +30,7 @@
 }
 
 .howItWorksText01 {
-    background-color: #000000;
+    background: rgba(0, 0, 0, 0.5) !important;
     /* margin: 0 auto; */
     padding: 20px;
     /* border: solid; */
@@ -41,7 +41,7 @@
 }
 
 .howItWorksText02 {
-    background-color: #000000;
+    background: rgba(0, 0, 0, 0.5) !important;
     margin: 0 auto;
     padding: 20px;
     /* border: solid; */
