@@ -14,14 +14,14 @@
     min-height: 100vh;
     margin-bottom: 0px;
     background-color: #000000;
-    background-image: url('./components/assets/images/background image resize 50.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 1570px 1047px;
     width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url('./components/assets/images/background image resize 50.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-size: 1570px 1047px; */
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* -o-background-size: cover; */
 }
 
 html, body {
@@ -354,6 +354,12 @@ hr {
     .labelText {
         font-size: 20px;
     }
+    .App {
+        background-size: 2000px 100% !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-attachment: fixed !important;
+    }
 }
 /* These rules take effect when the browser's width */
 /* is either 320px or more. */
@@ -402,9 +408,6 @@ hr {
     .form-group,
     .form-control {
         font-size: 15px;
-    }
-    .App {
-        background-size: 2000px 100%;
     }
 }
 /* These rules take effect when the browser's width */
