@@ -13,10 +13,10 @@
 .App {
     min-height: 100vh;
     margin-bottom: 0px;
-    background-color: #000000;
+    /* background-color: #000000; */
     background-image: url('./components/assets/images/background image resize 50.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-size: 1570px 1047px;
     width: 100%;
 }
