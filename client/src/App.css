@@ -16,7 +16,8 @@
     background-color: #000000;
     width: 100%;
     background-image: url('./components/assets/images/background image resize 50.jpg');
-    background-size: 1570px 1047px;
+    /* background-size: 1570px 1047px; */
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: 1570px 1047px;
