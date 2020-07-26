@@ -21,7 +21,9 @@
     background-position: center center;
     width: 100%;
     z-index: -1 !important;
-    display: block;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 html, body {
