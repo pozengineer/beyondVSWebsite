@@ -373,7 +373,8 @@ hr {
 @media screen and (min-width: 576px) {
     /* The body's bg color will be #fca203 */
     body {
-        background-color: #fca203;
+        /* background-color: #fca203; */
+        background-color: #000000;
     }
     .navLogo {
         margin-top: 10px;
