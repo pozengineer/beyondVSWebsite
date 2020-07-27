@@ -18,10 +18,6 @@
 /* These rules take effect when the browser's width */
 /* is either 225px or more. */
 @media screen and (min-width: 225px) {
-    /* The body background color will be #ff0000 */
-    body {
-        background-color: #ff0000;
-    }
     .serviceCardDescription {
         height: 100px;
     }
@@ -32,10 +28,6 @@
 /* These rules take effect when the browser's width */
 /* is either 320px or more. */
 @media screen and (min-width: 320px) {
-    /* The body's bg color will be #4caf50 */
-    body {
-      background-color: #4caf50;
-    }
     .serviceCardDescription {
         font-size: 14px;
         line-height: 125%;
@@ -43,11 +35,7 @@
 }
 /* These rules take effect when the browser's width */
 /* is either 576px or more. */
-@media screen and (min-width: 576px) { */
-    /* The body's bg color will be #fca203 */
-    body {
-      background-color: #fca203;
-    }
+@media screen and (min-width: 576px) {
     .serviceCardDescription {
         height: 200px;
     }
@@ -62,18 +50,10 @@
 /* These rules take effect when the browser's width */
 /* is either 768px or more. */
 @media screen and (min-width: 768px) {
-    /* The body's bg color will be #e803fc */
-    body {
-      background-color: #e803fc;
-    }
 }
 /* These rules take effect when the browser's width */
 /* is either 992px or more. */
 @media screen and (min-width: 992px) {
-    /* The body's bg color will be #03fcf2 */
-    body {
-      background-color: #03fcf2;
-    }
     .serviceCardTitle {
         font-size: 18px !important;
     }

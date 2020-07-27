@@ -16,6 +16,7 @@ import AdminSupport from './components/pages/AdminSupport/adminSupport';
 import ProjectManagement from './components/pages/ProjectManagement/projectManagement';
 import AccountFinance from './components/pages/AccountFinance/accountFinance';
 import WebDevelopment from './components/pages/WebDevelopment/webDevelopment';
+import BackgroundImage from './components/pages/BackgroundImage/backgroundImage';
 // import Projects from './components/pages/Projects/projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -24,6 +25,7 @@ function App() {
         <Router>
             <div className='App'>
                 <Wrapper />
+                <BackgroundImage />
                 <div className='appContainer'>
                     <Switch>
                     <Route exact path={["/", "/landing"]}>

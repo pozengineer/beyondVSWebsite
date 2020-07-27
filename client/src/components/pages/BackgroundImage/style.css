@@ -1,0 +1,9 @@
+.backgroundImageSection { 
+    position: fixed; 
+    z-index: -1000;
+}
+
+.fixedBackgroundImage {
+    width: 2000px;
+    height: 100%;
+}
