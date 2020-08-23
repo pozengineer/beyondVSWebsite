@@ -1,0 +1,23 @@
+.returnTop {
+    color: #ffffff !important;
+    font-size: 20px; 
+}
+
+label {
+    color: #ffffff !important;
+    font-size: 20px; 
+}
+
+h2 {
+    color: #ffffff !important;
+    margin: 0px 0px !important;
+}
+
+.infoBtn {
+    margin: auto;
+    width: 200px !important;
+}
+
+textarea {
+    height: 100px !important;
+}

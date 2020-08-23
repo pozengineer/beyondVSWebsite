@@ -17,6 +17,7 @@ import ProjectManagement from './components/pages/ProjectManagement/projectManag
 import AccountFinance from './components/pages/AccountFinance/accountFinance';
 import WebDevelopment from './components/pages/WebDevelopment/webDevelopment';
 import BackgroundImage from './components/pages/BackgroundImage/backgroundImage';
+import ContactUs from './components/pages/ContactUs/contactUs';
 // import Projects from './components/pages/Projects/projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -40,6 +41,7 @@ function App() {
                     <ProjectManagement />
                     <AccountFinance />
                     <WebDevelopment />
+                    <ContactUs />
                 </div>
                 <PushDiv/>
             </div>

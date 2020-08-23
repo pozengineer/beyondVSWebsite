@@ -6,7 +6,7 @@ import "./style.css";
 // That way we don't have to define them all individually
 function Landing() {
     return (
-        <div className='landingSection'>
+        <div className='landingSection' id='landing'>
             <Container className='container'>
                 <Row>
                     <Col sm={12} md={12}>

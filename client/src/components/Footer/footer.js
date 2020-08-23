@@ -11,7 +11,7 @@ function Footer() {
             <span className="text-white">info@beyondvs.com.au </span>
             {/* <span className="text-white">| 0412 564 166</span> */}
             <br />
-            <span className="text-white">ROSE BAY, NSW</span>
+            <span className="text-white">SYDNEY, NSW</span>
         </div>
     );
 }
