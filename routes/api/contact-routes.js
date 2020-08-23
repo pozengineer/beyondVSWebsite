@@ -25,13 +25,6 @@ router.post('/api/contactForm', (req, res) => {
             host: 'smtpout.secureserver.net',
             port: 465,
             secure: true,
-            secureConnection: false,
-            tls: {
-                ciphers: 'SSLv3',
-                // rejectUnauthorized: false
-            },
-            requireTLS: true,
-            debug: true,
             auth: {
                 user: process.env.NODEMAILER_USER,
                 pass: process.env.NODEMAILER_PASS
