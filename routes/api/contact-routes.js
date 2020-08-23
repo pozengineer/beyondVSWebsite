@@ -25,13 +25,10 @@ router.post('/api/contactForm', (req, res) => {
             service: 'Office365',
             host: 'smtp.office365.com',
             port: 587,
-            secureConnection: true,
+            secureConnection: false,
             auth: {
                 user: process.env.NODEMAILER_USER,
                 pass: process.env.NODEMAILER_PASS
-            },
-            tls: {
-                ciphers: "SSLv3"
             }
         })
         console.log(transporter.options.auth.user);
