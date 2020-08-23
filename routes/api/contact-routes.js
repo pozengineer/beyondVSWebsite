@@ -24,11 +24,14 @@ router.post('/api/contactForm', (req, res) => {
         let transporter = nodemailer.createTransport({
             service: 'Office365',
             host: 'smtp.office365.com',
-            port: 587,
+            port: 25,
             secureConnection: false,
             auth: {
                 user: process.env.NODEMAILER_USER,
                 pass: process.env.NODEMAILER_PASS
+            },
+            tls:{
+                rejectUnauthorized: false
             }
         })
         console.log(transporter.options.auth.user);
