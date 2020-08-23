@@ -22,18 +22,22 @@ router.post('/api/contactForm', (req, res) => {
         `
 
         let transporter = nodemailer.createTransport({
-            host: 'smtpout.secureserver.net',
-            port: 465,
-            secure: true,
+            service: 'Office365',
+            host: 'smtp.office365.com',
+            port: 587,
+            secureConnection: true,
             auth: {
                 user: process.env.NODEMAILER_USER,
                 pass: process.env.NODEMAILER_PASS
+            },
+            tls: {
+                ciphers: "SSLv3"
             }
         })
         console.log(transporter.options.auth.user);
         let mailOptions = {
             from: transporter.options.auth.user,
-            to: transporter.options.auth.user,
+            to: 'info@beyondvs.com.au',
             replyTo: inputData.inputEmail,
             subject: 'New Contact from Beyondvs Website',
             text: inputData.inputMessage,
