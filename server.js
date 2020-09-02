@@ -4,13 +4,14 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require('cors');
 const path = require('path');
-const http = require('http');
+// const http = require('http');
 const enforce = require('express-sslify');
 
 const routes = require("./routes");
 
 const app = express();
 // const User = require("./models/User.js");
+app.use(enforce.HTTPS( { trustProtoHeader: true }));
 const dotenv = require("dotenv");
 dotenv.config();
 const PORT = process.env.PORT || 5001;
@@ -47,12 +48,10 @@ app.use(routes);
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist");
 
 // Start the API server
-// app.listen(PORT, function() {
-//   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
-// });
-
-app.use(enforce.HTTPS( { trustProtoHeader: true }));
-
-http.createServer(app).listen(PORT, function() {
-    console.log('Express server listening on port ' + PORT);
+app.listen(PORT, function() {
+  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
+
+// http.createServer(app).listen(PORT, function() {
+//     console.log('Express server listening on port ' + PORT);
+// });
