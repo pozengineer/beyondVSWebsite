@@ -104,30 +104,6 @@ class ContactUs extends Component {
                                     Submit
                                 </button>
                             </form>
-                            <Form>
-                                <Form.Group controlId="exampleForm.ControlInput1">
-                                    <Form.Label>Email Address</Form.Label>
-                                    <Form.Control
-                                    type="email"
-                                    placeholder="name@example.com"
-                                    />
-                                </Form.Group>
-                                
-                                <Form.Group controlId="exampleForm.ControlTextarea1">
-                                    <Form.Label>Example Textarea</Form.Label>
-                                    <Form.Control
-                                    as="textarea"
-                                    rows="3"
-                                    refs='inputMessage'
-                                    className='form-control'
-                                    name='inputMessage'
-                                    placeholder='Enter Message'
-                                    value={this.state.inputMessage}
-                                    onChange={this.onChange}
-                                    />
-                                    <span style={{ color: "red" }}>{this.state.errors["inputMessage"]}</span>
-                                </Form.Group>
-                            </Form>
                         </div>
                     </Row>
                     <Row>
