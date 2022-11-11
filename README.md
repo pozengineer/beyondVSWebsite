@@ -27,7 +27,7 @@ Getting Started
 This documentation will assist you in viewing this project. To view the project, open
 the url of the deployed application with the following address in any browser:
 
-https://www.prettypalms.com.au
+https://thawing-caverns-05185.herokuapp.com/
 
 To view the code for this application go to the following address in any browser it will take you to github:
 
